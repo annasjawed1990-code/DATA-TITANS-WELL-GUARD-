@@ -1,0 +1,71 @@
+{
+  "data": {
+    "eligible_well_weeks": 87523,
+    "train_rows": 48865,
+    "val_rows": 11149,
+    "test_rows": 22580,
+    "train_events": 2360,
+    "val_events": 524,
+    "test_events": 1015,
+    "test_positive_rate": 0.04495128432240921,
+    "test_unique_weeks": 18,
+    "data_min_week": "2025-06-01",
+    "data_max_week": "2026-10-04",
+    "best_iteration": 72
+  },
+  "metrics": {
+    "14d downtime intensity": {
+      "average_precision": 0.04569427612620836,
+      "roc_auc": 0.5558398883430664,
+      "precision_top_25_weekly": 0.02,
+      "recall_top_25_weekly": 0.008866995073891626,
+      "weekly_alerts_25": 25,
+      "precision_top_50_weekly": 0.021111111111111112,
+      "recall_top_50_weekly": 0.0187192118226601,
+      "weekly_alerts_50": 50,
+      "precision_top_100_weekly": 0.018333333333333333,
+      "recall_top_100_weekly": 0.03251231527093596,
+      "weekly_alerts_100": 100
+    },
+    "Recent failure (90 days)": {
+      "average_precision": 0.07692528410017829,
+      "roc_auc": 0.649268850388161,
+      "precision_top_25_weekly": 0.14888888888888888,
+      "recall_top_25_weekly": 0.06600985221674877,
+      "weekly_alerts_25": 25,
+      "precision_top_50_weekly": 0.12111111111111111,
+      "recall_top_50_weekly": 0.10738916256157635,
+      "weekly_alerts_50": 50,
+      "precision_top_100_weekly": 0.11555555555555555,
+      "recall_top_100_weekly": 0.20492610837438424,
+      "weekly_alerts_100": 100
+    },
+    "Recent production loss": {
+      "average_precision": 0.06729651636536368,
+      "roc_auc": 0.6326585109286967
+    },
+    "Random ranking expectation": {
+      "average_precision": 0.04495128432240921,
+      "roc_auc": 0.5
+    },
+    "LightGBM preliminary": {
+      "average_precision": 0.1636889203355008,
+      "roc_auc": 0.8054624180076502
+    }
+  },
+  "feature_importance": {
+    "down_fraction_2w": 50,
+    "downtime_hours_2w": 117,
+    "oil_daily_avg_2w": 167,
+    "lost_per_week_2w": 94,
+    "watercut_2w": 201,
+    "eff_avg_2w": 146,
+    "rpm_avg_2w": 262,
+    "torque_avg_2w": 135,
+    "current_avg_2w": 97,
+    "production_days_2w": 0,
+    "failure_in_previous_90d": 3,
+    "log_days_since_failure": 99,
+    "month": 46
+  }
+}

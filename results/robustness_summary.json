@@ -1,0 +1,54 @@
+{
+  "sensor_only": {
+    "AP": 0.14758153454965822
+  },
+  "by_month": {
+    "2026-06": {
+      "rows": 4990,
+      "positive_rate": 0.038877755511022044,
+      "AP": 0.16001158846046917
+    },
+    "2026-07": {
+      "rows": 5011,
+      "positive_rate": 0.05268409499101975,
+      "AP": 0.19783943435475343
+    },
+    "2026-08": {
+      "rows": 6274,
+      "positive_rate": 0.04415046222505579,
+      "AP": 0.15351022927345973
+    },
+    "2026-09": {
+      "rows": 5026,
+      "positive_rate": 0.043772383605252686,
+      "AP": 0.1802904829561331
+    },
+    "2026-10": {
+      "rows": 1279,
+      "positive_rate": 0.04691164972634871,
+      "AP": 0.19496502854430672
+    }
+  },
+  "event_coverage": {
+    "all_recorded_failure_events_in_horizon": 733,
+    "eligible_events_with_active_lookback": 643,
+    "model_top25_events_caught": 116,
+    "model_top25_event_recall_eligible": 0.18040435458786935,
+    "model_top50_events_caught": 180,
+    "model_top50_event_recall_eligible": 0.27993779160186627,
+    "model_top100_events_caught": 289,
+    "model_top100_event_recall_eligible": 0.4494556765163297,
+    "sensor_only_top25_events_caught": 111,
+    "sensor_only_top25_event_recall_eligible": 0.17262830482115085,
+    "sensor_only_top50_events_caught": 172,
+    "sensor_only_top50_event_recall_eligible": 0.26749611197511663,
+    "sensor_only_top100_events_caught": 267,
+    "sensor_only_top100_event_recall_eligible": 0.4152410575427683,
+    "previous_failure_top25_events_caught": 72,
+    "previous_failure_top25_event_recall_eligible": 0.1119751166407465,
+    "previous_failure_top50_events_caught": 113,
+    "previous_failure_top50_event_recall_eligible": 0.17573872472783825,
+    "previous_failure_top100_events_caught": 200,
+    "previous_failure_top100_event_recall_eligible": 0.3110419906687403
+  }
+}

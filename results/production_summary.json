@@ -1,0 +1,338 @@
+{
+  "counts": {
+    "rows": 5075590,
+    "within_group_duplicate_well_days": 29,
+    "status|Producing": 2640530,
+    "status|Suspended": 1211617,
+    "status|Injecting": 1146539,
+    "status|nan": 52766,
+    "status|Abandoned": 16614,
+    "status|Issued": 7108,
+    "status|SOLD": 275,
+    "status|Drilling": 141,
+    "direction|production": 3778723,
+    "direction|injection": 1244101,
+    "direction|nan": 52766,
+    "fluid|Heavy Oil": 3150236,
+    "fluid|Polymer": 674196,
+    "fluid|Water Injection": 539104,
+    "fluid|Gas": 354097,
+    "fluid|Oil": 202843,
+    "fluid|nan": 69548,
+    "fluid|Water Source": 54014,
+    "fluid|Gas Injection": 18520,
+    "fluid|Steam Injection": 6375,
+    "fluid|H2O Inj.": 6183,
+    "fluid|H2O Source": 474,
+    "year|2025": 877447,
+    "year|2022": 874248,
+    "year|2023": 869235,
+    "year|2024": 863587,
+    "year|2021": 855178,
+    "year|2026": 735895,
+    "down_positive": 1840619,
+    "down_24": 1738881,
+    "down_negative": 0,
+    "hours_sum_not_24": 0,
+    "lost_when_down": 410259,
+    "lost_when_not_down": 0,
+    "lost_negative": 0,
+    "oil_negative": 3720,
+    "pump_eff_negative": 2001,
+    "pump_eff_gt_1": 115149,
+    "pump_eff_gt_100": 0,
+    "tubing_pressure_999999": 7,
+    "valid_hours_down": 5075590,
+    "valid_hours_on_prod": 5075590,
+    "valid_lost_oil_m3": 1647077,
+    "valid_oil_produced_m3": 3905245,
+    "valid_water_produced_m3": 3901334,
+    "valid_pump_efficiency_pct": 1685654,
+    "valid_pcp_pump_rpm": 2410409,
+    "valid_pcp_pump_electric_current_a": 904077,
+    "valid_pcp_pump_rod_torque_ftlb": 1317931,
+    "valid_tubing_pressure_kpa": 2668253,
+    "valid_casing_pressure_kpa": 3107453,
+    "sensor|pump_efficiency_pct|Abandoned|valid": 0,
+    "sensor|pump_efficiency_pct|Abandoned|rows": 16614,
+    "sensor|pump_efficiency_pct|Drilling|valid": 0,
+    "sensor|pump_efficiency_pct|Drilling|rows": 141,
+    "sensor|pump_efficiency_pct|Injecting|valid": 0,
+    "sensor|pump_efficiency_pct|Injecting|rows": 1146539,
+    "sensor|pump_efficiency_pct|Issued|valid": 0,
+    "sensor|pump_efficiency_pct|Issued|rows": 7108,
+    "sensor|pump_efficiency_pct|Producing|valid": 1684522,
+    "sensor|pump_efficiency_pct|Producing|rows": 2640530,
+    "sensor|pump_efficiency_pct|SOLD|valid": 200,
+    "sensor|pump_efficiency_pct|SOLD|rows": 275,
+    "sensor|pump_efficiency_pct|Suspended|valid": 59,
+    "sensor|pump_efficiency_pct|Suspended|rows": 1211617,
+    "sensor|pcp_pump_rpm|Abandoned|valid": 4824,
+    "sensor|pcp_pump_rpm|Abandoned|rows": 16614,
+    "sensor|pcp_pump_rpm|Drilling|valid": 0,
+    "sensor|pcp_pump_rpm|Drilling|rows": 141,
+    "sensor|pcp_pump_rpm|Injecting|valid": 62729,
+    "sensor|pcp_pump_rpm|Injecting|rows": 1146539,
+    "sensor|pcp_pump_rpm|Issued|valid": 0,
+    "sensor|pcp_pump_rpm|Issued|rows": 7108,
+    "sensor|pcp_pump_rpm|Producing|valid": 2043191,
+    "sensor|pcp_pump_rpm|Producing|rows": 2640530,
+    "sensor|pcp_pump_rpm|SOLD|valid": 200,
+    "sensor|pcp_pump_rpm|SOLD|rows": 275,
+    "sensor|pcp_pump_rpm|Suspended|valid": 298212,
+    "sensor|pcp_pump_rpm|Suspended|rows": 1211617,
+    "sensor|pcp_pump_electric_current_a|Abandoned|valid": 0,
+    "sensor|pcp_pump_electric_current_a|Abandoned|rows": 16614,
+    "sensor|pcp_pump_electric_current_a|Drilling|valid": 0,
+    "sensor|pcp_pump_electric_current_a|Drilling|rows": 141,
+    "sensor|pcp_pump_electric_current_a|Injecting|valid": 11114,
+    "sensor|pcp_pump_electric_current_a|Injecting|rows": 1146539,
+    "sensor|pcp_pump_electric_current_a|Issued|valid": 0,
+    "sensor|pcp_pump_electric_current_a|Issued|rows": 7108,
+    "sensor|pcp_pump_electric_current_a|Producing|valid": 817345,
+    "sensor|pcp_pump_electric_current_a|Producing|rows": 2640530,
+    "sensor|pcp_pump_electric_current_a|SOLD|valid": 0,
+    "sensor|pcp_pump_electric_current_a|SOLD|rows": 275,
+    "sensor|pcp_pump_electric_current_a|Suspended|valid": 75105,
+    "sensor|pcp_pump_electric_current_a|Suspended|rows": 1211617,
+    "sensor|pcp_pump_rod_torque_ftlb|Abandoned|valid": 0,
+    "sensor|pcp_pump_rod_torque_ftlb|Abandoned|rows": 16614,
+    "sensor|pcp_pump_rod_torque_ftlb|Drilling|valid": 0,
+    "sensor|pcp_pump_rod_torque_ftlb|Drilling|rows": 141,
+    "sensor|pcp_pump_rod_torque_ftlb|Injecting|valid": 16524,
+    "sensor|pcp_pump_rod_torque_ftlb|Injecting|rows": 1146539,
+    "sensor|pcp_pump_rod_torque_ftlb|Issued|valid": 0,
+    "sensor|pcp_pump_rod_torque_ftlb|Issued|rows": 7108,
+    "sensor|pcp_pump_rod_torque_ftlb|Producing|valid": 1216719,
+    "sensor|pcp_pump_rod_torque_ftlb|Producing|rows": 2640530,
+    "sensor|pcp_pump_rod_torque_ftlb|SOLD|valid": 150,
+    "sensor|pcp_pump_rod_torque_ftlb|SOLD|rows": 275,
+    "sensor|pcp_pump_rod_torque_ftlb|Suspended|valid": 83881,
+    "sensor|pcp_pump_rod_torque_ftlb|Suspended|rows": 1211617,
+    "duplicates_global_well_date": 29,
+    "unique_wells": 2905,
+    "wells_with_failures": 824,
+    "wells_with_jobs": 1834,
+    "failure_uwis_missing_production": 1,
+    "jobs_uwis_missing_production": 69
+  },
+  "sums": {
+    "oil_total_m3": 7834282.920596063,
+    "lost_total_positive_m3": 603853.3347181965,
+    "lost_total_negative_m3": 0.0,
+    "lost_with_down_positive_m3": 603853.3347181965
+  },
+  "range": [
+    "2021-01-01",
+    "2026-10-27"
+  ],
+  "years": {
+    "2021": {
+      "records": 855178,
+      "oil_m3": 1381132.47328595,
+      "lost_oil_m3": 71221.9175004489,
+      "downtime_hours": 7912449.4
+    },
+    "2022": {
+      "records": 874248,
+      "oil_m3": 1390976.3159293928,
+      "lost_oil_m3": 88470.89877191394,
+      "downtime_hours": 7636618.490027
+    },
+    "2023": {
+      "records": 869235,
+      "oil_m3": 1369428.9068179687,
+      "lost_oil_m3": 108025.0907267706,
+      "downtime_hours": 7310365.25
+    },
+    "2024": {
+      "records": 863587,
+      "oil_m3": 1407235.8621827583,
+      "lost_oil_m3": 111234.43895596666,
+      "downtime_hours": 6722329.499950999
+    },
+    "2025": {
+      "records": 877447,
+      "oil_m3": 1306311.4472901,
+      "lost_oil_m3": 118914.60753490869,
+      "downtime_hours": 6925761.250566
+    },
+    "2026": {
+      "records": 735895,
+      "oil_m3": 963324.0846404405,
+      "lost_oil_m3": 105986.38122818778,
+      "downtime_hours": 6059531.19998
+    }
+  },
+  "by_status": {
+    "Producing": {
+      "days": 2640530,
+      "down_hours": 11525863.590331,
+      "lost_oil_m3": 580176.1058951102,
+      "produced_oil_m3": 7833120.441389247
+    },
+    "Suspended": {
+      "days": 1211617,
+      "down_hours": 28925733.0,
+      "lost_oil_m3": 23223.129941346557,
+      "produced_oil_m3": 616.6623965831083
+    },
+    "Injecting": {
+      "days": 1146539,
+      "down_hours": 1484798.500193,
+      "lost_oil_m3": 6.718390540842706,
+      "produced_oil_m3": 6.803810234511096
+    },
+    "Abandoned": {
+      "days": 16614,
+      "down_hours": 379704.0,
+      "lost_oil_m3": 0.825892647819186,
+      "produced_oil_m3": 0.0
+    },
+    "Issued": {
+      "days": 7108,
+      "down_hours": 12720.0,
+      "lost_oil_m3": 148.3999999999999,
+      "produced_oil_m3": 0.0
+    },
+    "SOLD": {
+      "days": 275,
+      "down_hours": 1200.0,
+      "lost_oil_m3": 0.0,
+      "produced_oil_m3": 0.0
+    },
+    "Drilling": {
+      "days": 141,
+      "down_hours": 3384.0,
+      "lost_oil_m3": 0.0,
+      "produced_oil_m3": 0.0
+    }
+  },
+  "top_downtime_reasons": {
+    "Uneconomic - Long Term Shut In": {
+      "days": 1466681,
+      "hours_down": 35197496.499999,
+      "positive_lost_m3": 162411.99400565788
+    },
+    "Downhole Equipment - Rods": {
+      "days": 40005,
+      "hours_down": 850379.1,
+      "positive_lost_m3": 72079.89758489636
+    },
+    "ALL - Downhole - Rodstring Failure": {
+      "days": 14169,
+      "hours_down": 292428.75,
+      "positive_lost_m3": 40015.36256677094
+    },
+    "Facility - Limited Capacity": {
+      "days": 26034,
+      "hours_down": 611527.1,
+      "positive_lost_m3": 29374.0268785839
+    },
+    "Downhole Equipment - Pump": {
+      "days": 19779,
+      "hours_down": 457452.25,
+      "positive_lost_m3": 24204.539936106958
+    },
+    "Downhole Equipment - Tubing Failure": {
+      "days": 17021,
+      "hours_down": 397299.25,
+      "positive_lost_m3": 24097.329945438214
+    },
+    "ALL - Facility - Turn Around": {
+      "days": 7854,
+      "hours_down": 162747.250027,
+      "positive_lost_m3": 23237.090312806242
+    },
+    "Scheduled - Turn Around": {
+      "days": 7179,
+      "hours_down": 121183.000448,
+      "positive_lost_m3": 18785.966253982646
+    },
+    "Development - Shut-In For Drilling/Frac": {
+      "days": 20411,
+      "hours_down": 481183.49999000004,
+      "positive_lost_m3": 17696.524220549305
+    },
+    "Downhole": {
+      "days": 7443,
+      "hours_down": 160644.5,
+      "positive_lost_m3": 14392.210069923922
+    },
+    "Downhole Equipment - Well Torqued": {
+      "days": 6236,
+      "hours_down": 138009.5,
+      "positive_lost_m3": 13612.918108273598
+    },
+    "ALL - Downhole - Bottomhole Pump Failure": {
+      "days": 6005,
+      "hours_down": 136701.25,
+      "positive_lost_m3": 10969.216060375938
+    },
+    "Power Source/Supply - Unplanned - Grid": {
+      "days": 15802,
+      "hours_down": 86164.25,
+      "positive_lost_m3": 10549.70942759263
+    },
+    "Facility - Maintenance": {
+      "days": 2761,
+      "hours_down": 37960.75,
+      "positive_lost_m3": 8824.662640125702
+    },
+    "Facility - ESD": {
+      "days": 9143,
+      "hours_down": 34335.0,
+      "positive_lost_m3": 6810.215628589693
+    },
+    "ALL - Development - Capacity Constraints": {
+      "days": 5127,
+      "hours_down": 114889.75,
+      "positive_lost_m3": 6583.876831320236
+    },
+    "Surface Equipment - Engine/Motor Down": {
+      "days": 4441,
+      "hours_down": 66499.0,
+      "positive_lost_m3": 6397.592034672421
+    },
+    "ALL - Downhole - Tubing Failure": {
+      "days": 2980,
+      "hours_down": 67361.0,
+      "positive_lost_m3": 6258.119460821245
+    },
+    "ALL - Long Term Shut-In - Long Term Shut-In": {
+      "days": 6913,
+      "hours_down": 165593.5,
+      "positive_lost_m3": 6198.968613263543
+    },
+    "Surface Equipment - Wellhead Drive/Stuffing": {
+      "days": 3025,
+      "hours_down": 54329.25,
+      "positive_lost_m3": 5418.422765614514
+    },
+    "ALL - Sask Power/Grid - Unplanned Outage - Grid": {
+      "days": 6609,
+      "hours_down": 32808.5,
+      "positive_lost_m3": 5379.864032172952
+    },
+    "Downhole Equipment - Service Rig on Hole": {
+      "days": 1692,
+      "hours_down": 34332.0,
+      "positive_lost_m3": 4919.484312324176
+    },
+    "Downhole Equipment - Unspecified": {
+      "days": 8299,
+      "hours_down": 195329.5,
+      "positive_lost_m3": 4838.848970524459
+    },
+    "Facility": {
+      "days": 2087,
+      "hours_down": 30618.5,
+      "positive_lost_m3": 4808.21458145219
+    },
+    "Surface Equipment - Electrical": {
+      "days": 2153,
+      "hours_down": 41596.65,
+      "positive_lost_m3": 4670.886867396498
+    }
+  }
+}
